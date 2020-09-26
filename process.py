@@ -61,7 +61,7 @@ def process_batch(net, device, batch, result, labels):
 
 def process(path_to_process):
     device = get_device()
-    net = torch.load("full_model_94.pt").to(device)
+    net = torch.load("full_model_958.pt").to(device)
     net.eval()
 
     with torch.no_grad():
